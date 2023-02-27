@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NYSL | home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Amanda Gerez">
+    <meta name="description" content="First 2019 coding bootcamp project"> 
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style1.css">
 </head>
-<body>
-    <h1>Northside Youth Soccer League</h1>
+
+<body>  
+    <header class= "header">
+        <h1 class= "title">Northside Youth Soccer League</h1>
+        <img class= "img_logo" src="imgs/nysl_logo.png" alt="logo northside youth soccer league">
+        <h2 class=" subtitle">Upcoming Events</h2>  
+    </header>
+
+    <main>
+        <div class="container">
+            <nav class="navbar">
+                <ul class="menu">
+                    <li class="item"><a class="link current" href="#">Home</a></li>
+                    <li class="item"><a class= "link" href="about.html">About NYSL</a></li>
+                    <li class="item"><a class= "link" href="game_info.html">Fall Schedule</a></li>            
+                    <li class="item"><a class= "link" href="rules.html">Rules of Play &amp; Policies</a></li>              
+                    <li class="item"><a class= "link" href="register.html">Register</a></li>
+                    <li class="item"><a class= "link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section class="events">
+                    <h2 class="subtitle_event">August 4</h2>
+                    <p class="text_event">NYSL Fundraiser</p>
+
+                    <h2 class="subtitle_event">August 16</h2>
+                    <p class="text_event">Season Kick-Off: Meet the Teams</p>
+
+                    <h2 class="subtitle_event">September 1</h2>
+                    <p class="text_event">First Game of The Season. Check Game Schedule for details.</p>
+            </section>    
+        </div>
+    </main>
 </body>
 </html>
