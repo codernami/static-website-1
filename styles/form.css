@@ -1,0 +1,81 @@
+/* Form
+--------------------------------------------------------------------------------------------------------*/
+.section_form {
+    width: 80%;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    color: var(--text);
+}
+
+.form_title {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+}
+
+form {
+    padding: 2rem 3rem;
+    color: var(--text);
+    border: 1px solid #D7C1B2;
+    background-color: #F6EDD9;
+}
+
+label {
+    line-height: 3.5;
+    margin: .9rem;
+}
+
+legend {
+    font-weight: bold;
+}
+
+form fieldset + fieldset {
+    margin-bottom: 1.3rem;
+    margin-top: 1.3rem;
+    border: none;
+}
+
+input {
+    font-size: 1rem;
+    padding: .4rem; 
+}
+
+input[type=radio] {
+    margin: .5rem;
+}
+
+input[type=checkbox] {
+    margin: .7rem;
+}
+
+#schools1,
+#schools2,
+#jersey_size,
+#shorts_size {
+    font-size: 1rem;
+}
+
+.section_form_one,
+.section_form_six {
+    border: none;
+}
+
+.section_form_text {
+    line-height: 2;
+    margin-bottom: .7rem;
+    padding: 2rem;
+}
+
+.btn {
+    font-size: 1rem;
+    float: right;
+    margin-top: 3rem;
+    margin-right: -40px;
+    padding: .8rem 2rem;
+    color: white;
+    border-radius: 5px;
+    background-color: #008EB3;
+    border: none;
+}

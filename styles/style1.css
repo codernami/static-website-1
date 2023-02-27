@@ -1,0 +1,136 @@
+/* Style 1 _ classic white --------------------------------------------------------*/
+:root {
+    --titles: #F8F6F4;
+    --links: #45A054;
+    --text: #4E4637;
+    --bg-color: #24581E;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+}
+
+/* Header
+--------------------------------------------------------------------------------------------------------*/
+.header {
+    background-color: var(--bg-color);
+    background-image: url("../imgs/style1_design1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 473px;
+}
+
+.img_logo {
+    transform: translate(1040px, 350px);
+    width: 140px;
+    position: relative;
+    z-index: 30;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-top: 0;
+    padding-top: .7rem;
+    padding-left: 1rem;
+    color: var(--titles);
+}
+
+.subtitle {
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--titles);
+    background-color: var(--bg-color);
+    transform: translateY(212px);
+    z-index: 20;
+}
+
+
+/* Main container
+--------------------------------------------------------------------------------------------------------*/
+.container {
+    display: flex;
+    margin-top: 3rem;
+}
+
+/* Navigation Bar
+--------------------------------------------------------------------------------------------------------*/
+.navbar {
+    width: 35%;
+}
+
+.menu {
+    list-style-type: none;
+    padding-top: 5rem;
+}
+
+.item {
+    padding-bottom: 1.5rem;
+}
+
+.link {
+    text-decoration: none; 
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--links);
+}
+
+.navbar .current {
+    text-decoration: underline;
+}
+
+/* Events section ---------------------------------- */
+.events {
+    padding-top: 5rem;
+    padding-left: .3rem;
+    width: 80%;
+}
+
+.subtitle_event {
+    color: var(--text);
+    font-style: italic;
+}
+
+.text_event {
+    margin: 1.3rem;
+    text-indent: 1.3rem;
+    font-size: 1.3rem;
+    color: var(--text);
+}
+
+/* About section -----------------------------------------*/
+
+.about {
+    width: 80%;
+    padding: 5rem 14rem 1rem 2rem;
+}
+
+.about_title{
+    margin-bottom: 0;
+    color: var(--text);
+}
+
+.about_text {
+    margin-top: .4rem;
+    margin-bottom: .9rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    color: var(--text);
+    line-height: 1.5;
+}
+
+/* Contact section -------------------------------------- */
+.contact {
+    width: 80%;
+    font-size: 1.3rem;
+    padding-top: 5.3rem;
+    padding-left: 2rem;
+}
+
+.contact_text {
+    padding-bottom: .9rem;
+}
