@@ -7,4 +7,4 @@
 + Present data in lists and tables.
 + Add forms and maps.
 
-[Live demo](https://codernami.github.io/staticwebsite-1/)
+[Live demo](https://codernami.github.io/static-website-1/)
